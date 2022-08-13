@@ -1,6 +1,10 @@
 # Switchboard VRF CPI & Coinflip
 
-Example repo
+Based on Switchboard-v2 Anchor-vrf-parser.
+This was my first SOL on-chain project, so it obviously not perfect.
+Feel free to improve on this :)
+If you decide to ship this, donations are welcome at:
+`harrykcZHvcazwMWQVxgej34J8cHT6gSkMUwa5TR6j6`
 
 ## Setup
 
