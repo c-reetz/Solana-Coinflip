@@ -1,0 +1,3 @@
+import { PublicKey, TransactionInstruction } from '@solana/web3.js';
+export declare const withSetGovernanceDelegate: (instructions: TransactionInstruction[], programId: PublicKey, programVersion: number, realm: PublicKey, governingTokenMint: PublicKey, governingTokenOwner: PublicKey, governanceAuthority: PublicKey, newGovernanceDelegate: PublicKey | undefined) => Promise<void>;
+//# sourceMappingURL=withSetGovernanceDelegate.d.ts.map

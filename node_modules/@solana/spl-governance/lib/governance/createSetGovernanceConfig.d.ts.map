@@ -1,0 +1,1 @@
+{"version":3,"file":"createSetGovernanceConfig.d.ts","sourceRoot":"","sources":["../../src/governance/createSetGovernanceConfig.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,SAAS,EAAE,sBAAsB,EAAE,MAAM,iBAAiB,CAAC;AACpE,OAAO,EAAE,gBAAgB,EAAE,MAAM,YAAY,CAAC;AAK9C,wBAAgB,yBAAyB,CACvC,SAAS,EAAE,SAAS,EACpB,UAAU,EAAE,SAAS,EACrB,gBAAgB,EAAE,gBAAgB,0BAkBnC"}

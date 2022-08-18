@@ -1,0 +1,3 @@
+import { PublicKey, TransactionInstruction } from '@solana/web3.js';
+export declare const withSignOffProposal: (instructions: TransactionInstruction[], programId: PublicKey, programVersion: number, realm: PublicKey, governance: PublicKey, proposal: PublicKey, signatory: PublicKey, signatoryRecord: PublicKey | undefined, proposalOwnerRecord: PublicKey | undefined) => void;
+//# sourceMappingURL=withSignOffProposal.d.ts.map

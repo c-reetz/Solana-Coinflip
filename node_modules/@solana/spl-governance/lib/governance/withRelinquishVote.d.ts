@@ -1,0 +1,3 @@
+import { PublicKey, TransactionInstruction } from '@solana/web3.js';
+export declare const withRelinquishVote: (instructions: TransactionInstruction[], programId: PublicKey, governance: PublicKey, proposal: PublicKey, tokenOwnerRecord: PublicKey, governingTokenMint: PublicKey, voteRecord: PublicKey, governanceAuthority: PublicKey | undefined, beneficiary: PublicKey | undefined) => Promise<void>;
+//# sourceMappingURL=withRelinquishVote.d.ts.map

@@ -12,7 +12,7 @@
   },
   "scripts": {
     "build": "echo \"For workspace anchor-vrf-parser, run 'anchor build' from the project root\" && exit 0",
-    "lint": "eslint --ext .js,.json,.ts 'src/**' --fix"
+    "lint": "eslint --ext .js,.json,.ts 'programs/src/**' --fix"
   },
   "dependencies": {
     "@project-serum/anchor": "^0.24.2",

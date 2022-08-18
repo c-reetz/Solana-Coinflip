@@ -1,0 +1,44 @@
+{
+  "name": "@orca-so/aquafarm",
+  "version": "0.0.12",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "start": "yarn run build:live",
+    "start:prod": "ts-node src/index.ts",
+    "ts-node": "./node_modules/ts-node/dist/bin-script.js",
+    "build": "tsc -p .",
+    "build:live": "nodemon --watch 'src/**/*.ts' --exec \"ts-node\" src/index.ts",
+    "lint": "yarn run eslint src/ --ext .js,.jsx,.ts,.tsx",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "description": "",
+  "dependencies": {
+    "@solana/spl-token": "^0.1.6",
+    "@solana/web3.js": "^1.20.0",
+    "@types/bn.js": "^5.1.0",
+    "bn.js": "^5.2.0",
+    "buffer-layout": "^1.2.1",
+    "decimal.js": "^10.3.0",
+    "dotenv": "^10.0.0",
+    "eslint": "^7.28.0",
+    "mz": "^2.7.0",
+    "prompts": "^2.4.1",
+    "typescript": "^4.3.2",
+    "yargs": "^17.0.1"
+  },
+  "devDependencies": {
+    "@types/mz": "^2.7.3",
+    "@types/node": "^15.3.1",
+    "@types/yargs": "^17.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.26.1",
+    "@typescript-eslint/parser": "^4.26.1",
+    "lint": "yarn run eslint src/ --ext .js,.ts",
+    "ts-node": "^9.1.1"
+  }
+}

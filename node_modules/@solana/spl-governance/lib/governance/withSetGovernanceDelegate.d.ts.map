@@ -1,0 +1,1 @@
+{"version":3,"file":"withSetGovernanceDelegate.d.ts","sourceRoot":"","sources":["../../src/governance/withSetGovernanceDelegate.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,SAAS,EAAE,sBAAsB,EAAE,MAAM,iBAAiB,CAAC;AAMpE,eAAO,MAAM,yBAAyB,iBACtB,sBAAsB,EAAE,aAC3B,SAAS,kBACJ,MAAM,SACf,SAAS,sBACI,SAAS,uBACR,SAAS,uBACT,SAAS,yBACP,SAAS,GAAG,SAAS,kBAoC7C,CAAC"}

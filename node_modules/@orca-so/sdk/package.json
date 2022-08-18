@@ -1,0 +1,65 @@
+{
+  "name": "@orca-so/sdk",
+  "version": "1.2.25",
+  "description": "Typescript SDK for the Orca protocol.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "dependencies": {
+    "@orca-so/aquafarm": "^0.0.12",
+    "@orca-so/stablecurve": "^1.0.5",
+    "@solana/spl-token": "^0.1.5",
+    "@solana/spl-token-swap": "^0.1.2",
+    "@solana/web3.js": "^1.24.1",
+    "decimal.js": "^10.3.1"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^4.11.6",
+    "@types/decimal.js": "^7.4.0",
+    "@types/jest": "^26.0.24",
+    "@types/node": "^12.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.26.0",
+    "@typescript-eslint/parser": "^4.26.0",
+    "builder-pattern": "^1.3.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-react-app": "^6.0.0",
+    "husky": "^7.0.1",
+    "jest": "^27.0.6",
+    "lint-staged": ">=10",
+    "prettier": "^2.3.2",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.2"
+  },
+  "scripts": {
+    "build": "tsc -p src",
+    "watch": "tsc -w -p src",
+    "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write",
+    "prepare": "husky install",
+    "prepublishOnly": "tsc -p src",
+    "test": "jest"
+  },
+  "lint-staged": {
+    "*.{ts,md}": "yarn run prettier-format"
+  },
+  "files": [
+    "/dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orca-so/typescript-sdk.git"
+  },
+  "keywords": [
+    "orca_so",
+    "orca",
+    "solana",
+    "typescript",
+    "sdk",
+    "crypto",
+    "dex"
+  ],
+  "author": "team@orca.so",
+  "bugs": {
+    "url": "https://github.com/orca-so/typescript-sdk/issues"
+  },
+  "homepage": "https://www.orca.so"
+}

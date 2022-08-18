@@ -23,7 +23,7 @@ import "mocha";
 import {
   AnchorVrfParser,
   IDL,
-} from "../../../../target/types/anchor_vrf_parser";
+} from "../target/types/anchor_vrf_parser";
 import { VrfClient } from "../client/accounts";
 import { PROGRAM_ID } from "../client/programId";
 import bs58 from "bs58";
