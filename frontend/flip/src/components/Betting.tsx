@@ -18,7 +18,7 @@ import useUserSOLBalanceStore from "../stores/useUserSOLBalanceStore";
 import { notify } from "../utils/notifications";
 // eslint-disable-next-line import/no-extraneous-dependencies
 import * as anchor from "@project-serum/anchor";
-import IDL_JSON from "../../../../../../../target/idl/anchor_vrf_parser.json";
+import IDL_JSON from "../models/idl.json";
 
 export const Betting: FC = () => {
   const { connection } = useConnection();
@@ -97,6 +97,7 @@ export const Betting: FC = () => {
             user: publicKey,
             userStats: userStatsPDA,
             vault: vaultPda,
+              //@ts-ignore
             feeAccount: feeAccount,
             systemProgram: SystemProgram.programId,
           })

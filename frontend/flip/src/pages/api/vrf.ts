@@ -22,7 +22,7 @@ import {
 // eslint-disable-next-line import/no-extraneous-dependencies
 import bs58 from "bs58";
 import type { NextApiRequest, NextApiResponse } from "next";
-import IDL_JSON from "../../../../../../../../target/idl/anchor_vrf_parser.json";
+import IDL_JSON from "../../models/idl.json";
 import { VrfClient } from "../../models/VrfClient";
 
 type Data = {
